@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Setting Font Size</title>
+<style>
+  /*
+    Aumenta a fonte em 120%
+  */
+body {
+  font-size: 120%;
+}
+</style>
+</head>
+<body>
+<div>Regular text</div>
+<!-- Aumenta a fonte 2x em relação ao estilo já aplicado. -->
+<div style="font-size: 2em;">2em text
+  <!-- Aumenta a fonte 2x resultando em 4x ao inicial. -->
+  <div style="font-size: 2em;">4em text
+    <!-- Reduz pela metade em relação tamanho atual. -->
+    <div style="font-size: .5em;">2em again!</div>
+  </div>
+</div>
+</body>
+</html>

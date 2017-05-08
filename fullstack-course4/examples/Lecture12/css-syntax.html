@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Anatomy of a CSS Rule</title>
+<!-- CSS (Cascading Style Sheets) descreve como os elementos HTML devem ser
+apresentados aplicando estilos ao conteúdo da página. Podem ser:
+
+    Inline - by using the style attribute in HTML elements
+    Internal - by using a <style> element in the <head> section
+    External - by using an external CSS file
+
+    Chapter Summary
+
+        Use the HTML style attribute for inline styling
+        Use the HTML <style> element to define internal CSS
+        Use the HTML <link> element to refer to an external CSS file
+        Use the HTML <head> element to store <style> and <link> elements
+        Use the CSS color property for text colors
+        Use the CSS font-family property for text fonts
+        Use the CSS font-size property for text sizes
+        Use the CSS border property for borders
+        Use the CSS padding property for space inside the border
+        Use the CSS margin property for space outside the border
+
+Ref: https://www.w3schools.com/html/html_css.asp
+ -->
+ <!-- Observe que neste arquivo o estilo está sendo aplicado internamente,
+<style> element in the <head> section.  -->
+<style>
+  /*
+    Isto é um comentário no CSS.
+  */
+  /* Aplica estilo à tag <p>, ou seja, a todos os parágrafos. */
+p {
+  color: blue;
+  font-size: 20px;
+  width: 200px;
+}
+/* Aplica estilo à tag <h1>, ou seja, a todos os títulos h1 da página. */
+h1 {
+  color: green;
+  font-size: 36px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<h1>Anatomy of a CSS Rule</h1>
+<h2>Subheading 1</h2>
+<p>CSS works by associating rules with HTML elements. These rules govern how the content of specified elements should be displayed. A CSS rule contains two parts: a selector and a declaration.</p>
+<h2>Subheading 2</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est maxime aperiam blanditiis reprehenderit voluptatem quia quas nesciunt amet atque temporibus quod harum sequi voluptate consequatur tenetur perferendis, cum ad! Eos.</p>
+</body>
+</html>
